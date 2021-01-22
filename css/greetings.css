@@ -1,0 +1,25 @@
+@import "neon.css";
+@import "index.css";
+
+.hello {
+    font-family: "bubble";
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5px;
+    text-shadow: 6px 2px 2px gray; 
+}
+
+.question {
+    font-family: "bubble";
+    margin-right: 20px;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.js-greetings {
+    font-family: "winter";
+    font-weight: 600;
+    font-size: 60px;
+    color: #dff9fb;
+}

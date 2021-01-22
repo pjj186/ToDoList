@@ -1,0 +1,31 @@
+@import "neon.css";
+@import "index.css";
+
+
+.weather-box {
+    font-family: "bubble";
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    border-radius: 30px;
+}
+.js-place,
+.js-country,
+.js-weather {
+    font-size: 25px;
+    color: white;
+}
+
+.temp,
+.place-name,
+.country-name {
+    color: #dff9fb;
+    font-size: 30px;
+    text-shadow: 6px 2px 2px gray;
+}

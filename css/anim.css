@@ -1,0 +1,71 @@
+@keyframes rotateZanim {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes tail {
+  0%{
+    width: 0px;
+  }
+  30%{
+    width: 100px;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes falling {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(300px);
+  }
+}
+
+@keyframes shining {
+  0%{
+    width: 0px;
+  }
+  50%{
+    width: 30px;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+ @keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+.jello-horizontal {
+	animation: jello-horizontal 0.9s both;
+}

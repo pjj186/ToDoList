@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p_jeje's ToDoList</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="music_on">
+        <span>BGM</span>
+        <i class="fas fa-compact-disc"></i>
+    </div>
+
+    <div class="weather-box">
+        <div class="temperature">
+            <span class="temp">Temp : </span>
+            <span class="js-weather neon-text-menu"></span>
+        </div>
+        <div class="place">
+            <span class="place-name">Place : </span>
+            <span class="js-place neon-text-menu"></span>
+        </div>
+        <div class="country">
+            <span class="country-name">Country : </span>
+            <span class="js-country neon-text-menu"></span>
+        </div>
+    </div>
+
+    <div class="clock-box ">
+        <div class="js-clock neon-text-menu">
+            <h1>00:00</h1>
+        </div>
+    </div>
+
+    <div class="big-form">
+    <div class="form-box ">
+        <span class="question">Your Name? </span>
+        <form class="js-form form">
+            <input type="text" placeholder="Kimino nawa?" />
+        </form>
+        <h4 class="hello js-hello greetings">Someone dear to me.
+            I don't want to forget.
+            I shouldn't forget!
+        </h4>
+        <h4 class="js-greetings greetings "></h4>
+    </div>
+    </div>
+
+    <form class="js-toDoForm">
+        <input class="teskinput" type="text" placeholder="Write a to do" />
+    </form>
+
+    <div class="teskList">
+        <div class="resizing">
+        <div class="pending_box">
+            <span class="pending_title">To Do</span>
+            <ul class="pendingList"></ul>
+        </div>
+        <div class="finish_box">
+            <span class="finish_title">Finish</span>
+            <ul class="finishList"></ul>
+        </div>
+        </div>
+    </div>
+    <div class="app_box">
+        <a href="https://www.naver.com/" target="_blank">
+            <img class="naver" src="images/naver.png"/>
+        </a>
+        <a href="https://www.google.com/" target="_blank">
+            <img class="google" src="images/google-icon-png-19-transparent.png"/>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img class="youtube" src="images/Youtube.png"/>
+        </a>
+    </div>
+    <div id="splash-screen"></div>
+    <div class="bg">
+    </div>
+    <script src="js/audio.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/gretting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="https://kit.fontawesome.com/44ebe7b134.js" crossorigin="anonymous"></script>
+</body>
+</html>

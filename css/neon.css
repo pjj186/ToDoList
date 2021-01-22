@@ -1,0 +1,99 @@
+.neon-wrapper {
+    box-shadow:
+    0 0 0.1vw  0.4vw #fff7f7,   
+    0 0 0.4vw  0.6vw #e97272, 
+    0 0   4vw  0.4vw #e50b0b,
+    inset 0 0 1.5vw  0.4vw #e50b0b,
+    inset 0 0 0.4vw  0.2vw #e97272,
+    inset 0 0 0.5vw  0.2vw #fff7f7;
+  }
+
+  .neon-text-menu {
+    text-shadow: 
+    .1vw 0vw   0vw #ced6e0, .2vw 0vw   0vw #ced6e0, .1vw 0vw   0vw #ced6e0,
+    .1vw 0vw  .1vw #ced6e0, .2vw 0vw  .1vw #ced6e0, .1vw 0vw  .1vw #ced6e0,
+    .1vw 0vw   1vw #ced6e0, .2vw 0vw   2vw #ced6e0, .1vw 0vw   2vw #ced6e0, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw   1vw #dfe4ea, .1vw 0vw   1vw #dfe4ea, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea,
+    .1vw 0vw  1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea;
+  }
+
+  .neon-text-title {
+    text-shadow: 
+    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .1vw 0vw   0vw #f25757,
+    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .1vw 0vw  .1vw #f25757,
+    .1vw 0vw   1vw #f25757, .2vw 0vw   2vw #f25757, .1vw 0vw   2vw #f25757, 
+    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .1vw 0vw   1vw #e50b0b, 
+    .1vw 0vw   1vw #e50b0b, .2vw 0vw  10vw #e50b0b, .1vw 0vw  1vw #e50b0b,
+    .1vw 0vw  1vw #e50b0b, .2vw 0vw  10vw #e50b0b, .1vw 0vw  1vw #e50b0b;
+  }
+
+  .neon-text-title-pink {
+    text-shadow: 
+    .1vw 0vw   0vw #e056fd, .2vw 0vw   0vw #e056fd, .1vw 0vw   0vw #e056fd,
+    .1vw 0vw  .1vw #e056fd, .2vw 0vw  .1vw #e056fd, .1vw 0vw  .1vw #e056fd,
+    .1vw 0vw   1vw #e056fd, .2vw 0vw   2vw #e056fd, .1vw 0vw   2vw #e056fd, 
+    .1vw 0vw   1vw #be2edd, .2vw 0vw   1vw #be2edd, .1vw 0vw   1vw #be2edd, 
+    .1vw 0vw   1vw #be2edd, .2vw 0vw  10vw #be2edd, .1vw 0vw  1vw #be2edd,
+    .1vw 0vw  1vw #be2edd, .2vw 0vw  10vw #be2edd, .1vw 0vw  1vw #be2edd
+  }
+
+  .neon-text-title-green {
+    text-shadow: 
+    .1vw 0vw   0vw #32ff7e, .2vw 0vw   0vw #32ff7e, .1vw 0vw   0vw #32ff7e,
+    .1vw 0vw  .1vw #32ff7e, .2vw 0vw  .1vw #32ff7e, .1vw 0vw  .1vw #32ff7e,
+    .1vw 0vw   1vw #32ff7e, .2vw 0vw   2vw #32ff7e, .1vw 0vw   2vw #32ff7e, 
+    .1vw 0vw   1vw #3ae374, .2vw 0vw   1vw #3ae374, .1vw 0vw   1vw #3ae374, 
+    .1vw 0vw   1vw #3ae374, .2vw 0vw  10vw #3ae374, .1vw 0vw  1vw #3ae374,
+    .1vw 0vw  1vw #3ae374, .2vw 0vw  10vw #3ae374, .1vw 0vw  1vw #3ae374;
+  }
+
+  .neon-wrapper-green {
+    box-shadow:
+    0 0 0.1vw  0.1vw #fff7f7,
+    0 0 0.4vw  0.1vw #3ae374, 
+    0 0   2vw  0.1vw #32ff7e,
+    inset 0 0 0.8vw  0.1vw #32ff7e,
+    inset 0 0 0.1vw  0.1vw #3ae374,
+    inset 0 0 0.1vw  0.1vw #fff7f7;
+  }
+
+  .neon-wrapper-pink {
+    box-shadow:
+    0 0 0.1vw  0.2vw #fff7f7,
+    0 0 0.4vw  0.4vw #e84393, 
+    0 0   4vw  0.2vw #fd79a8,
+    inset 0 0 1.0vw  0.1vw #fd79a8,
+    inset 0 0 0.3vw  0.1vw #e84393,
+    inset 0 0 0.3vw  0.2vw #fff7f7;
+  }
+
+  .neon-wrapper-white {
+    box-shadow:
+    0 0 0.1vw  0.3vw #ffffff,   
+    0 0 0.1vw  0.3vw #ffffff, 
+    0 0   1vw  0.1vw #ffffff,
+    inset 0 0 0.1vw  0.1vw #ffffff,
+    inset 0 0 0.1vw  0.1vw #ffffff,
+    inset 0 0 0.1vw  0.1vw #ffffff;
+  }
+
+  .neon-text-list {
+    text-shadow: 
+    .1vw 0vw   0vw #57606f, .1vw 0vw   0vw #57606f, .1vw 0vw   0vw #57606f,
+    .1vw 0vw  .2vw #57606f, .1vw 0vw  .1vw #57606f, .1vw 0vw  .1vw #57606f,
+    .1vw 0vw   .2vw #57606f, .1vw 0vw   .1vw #57606f, .1vw 0vw   .1vw #57606f, 
+    .1vw 0vw   .2vw #dfe4ea, .1vw 0vw   .1vw #dfe4ea, .1vw 0vw   .1vw #dfe4ea, 
+    .1vw 0vw   .2vw #dfe4ea, .1vw 0vw  .1vw #dfe4ea, .1vw 0vw  .1vw #dfe4ea,
+    .1vw 0vw  .2vw #dfe4ea, .1vw 0vw  .1vw #dfe4ea, .1vw 0vw  .1vw #dfe4ea;
+  }
+
+  .neon-text-gerne {
+    text-shadow: 
+    .1vw 0vw   0vw #57606f, .2vw 0vw   0vw #57606f, .1vw 0vw   0vw #57606f,
+    .1vw 0vw  .1vw #57606f, .2vw 0vw  .1vw #57606f, .1vw 0vw  .1vw #57606f,
+    .1vw 0vw   1vw #57606f, .2vw 0vw   2vw #57606f, .1vw 0vw   2vw #57606f, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw   1vw #dfe4ea, .1vw 0vw   1vw #dfe4ea, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea,
+    .1vw 0vw  1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea;
+  }
