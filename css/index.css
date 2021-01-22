@@ -108,6 +108,7 @@ body::-webkit-scrollbar {
     background-position: center;
     animation: hideSplashScreen 1s linear forwards;
     /* forwards 를 주게되면, 애니메이션의 마지막속성이 애니메이션이 끝나고도 유지 */
+    animation-delay:2.5s ;
 }
 
 @keyframes hideSplashScreen {
