@@ -10,6 +10,7 @@ document.querySelector(".fa-compact-disc").addEventListener("click", function ()
     bgm.classList.add(MUSIC_ON);
   } else {
     audio1.pause();
+    audio1.currentTime = 0;
     bgm.classList.remove(MUSIC_ON);
   }
   });

@@ -36,7 +36,6 @@ function handleGeoSucces(position){
         longitude // longitude = longitude
     };
     saveCoords(coordsObj);
-    getWeather(CITY_ID);
 }
 
 function handleGeoError(){
